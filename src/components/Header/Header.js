@@ -1,6 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { NavLink } from 'react-router-dom';
 import './Header.css';
+import { HiOutlineDocument } from "react-icons/hi2";
+
+
+const handleTabCompetence = () => {
+  // const cvUrl = `${process.env.PUBLIC_URL}/assets/cv/CV_Hugo_Peron.pdf`;
+  const cvUrl = `${process.env.PUBLIC_URL}/assets/tabcompetence/tabcomp.pdf`;
+  window.open(cvUrl, '_blank');
+};
 
 function Header() {
   const [scrolled, setScrolled] = useState(false);
@@ -32,9 +40,15 @@ function Header() {
           <NavLink to="/skills" className="nav-link">
             Compétences
           </NavLink>
-          <NavLink to="/contact" className="nav-link">
+          <NavLink to="/contact" className="nav-link" >
             Contact
           </NavLink>
+          <a href="https://docs.julieng6v.fr/" className="nav-link" target="_blank" rel="noopener noreferrer">
+            Docs
+          </a>
+          <a onClick={handleTabCompetence} className="nav-link" role="button">
+            <HiOutlineDocument />
+          </a>
         </nav>
       </div>
     </header>

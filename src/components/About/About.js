@@ -16,6 +16,11 @@ function About() {
     const cvUrl = `${process.env.PUBLIC_URL}/assets/cv/CV_Julien_Lebas.pdf`;
     window.open(cvUrl, '_blank');
   };
+  const handleTabCompetence = () => {
+    // const cvUrl = `${process.env.PUBLIC_URL}/assets/cv/CV_Hugo_Peron.pdf`;
+    const cvUrl = `${process.env.PUBLIC_URL}/assets/tabcompetence/tabcomp.pdf`;
+    window.open(cvUrl, '_blank');
+  };
 
   return (
     <section className="about">
@@ -79,7 +84,15 @@ function About() {
               >
                 Télécharger CV
               </button>
+              <button
+                  className="cta-button secondary"
+                  onClick={handleTabCompetence}
+              >
+                Télécharger Tableau Compétence
+              </button>
             </div>
+
+
           </div>
 
           <div className="about-visual">

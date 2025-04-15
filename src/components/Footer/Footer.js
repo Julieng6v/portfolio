@@ -24,6 +24,7 @@ function Footer() {
                 <a href="/portfoliojulien/projects">Projets</a>
                 <a href="/portfoliojulien/skills">Compétences</a>
                 <a href="/portfoliojulien/contact">Contact</a>
+                <a href="https://docs.julieng6v.fr">Docs</a>
               </nav>
             </div>
 
