@@ -52,28 +52,28 @@ export const portfolioData = {
       title: "Veille Technologique",
       year: "2024",
       description: "Plateforme de veille technologique permettant de suivre les dernières actualités et innovations dans le domaine du développement web et mobile.",
-      technologies: ["React", "Node.js", "API REST"]
+      technologies: ["Projets Perso & Scolaire", "Réseau", "Cybersécurité"]
     },
     {
       id: 8,
-      title: "Monstermoon",
+      title: "Cobian Reflector",
       year: "2024",
-      description: "Projet de gestion de base de données complexe avec des relations multiples entre les entités. Optimisation des requêtes et mise en place d'index pour améliorer les performances.",
-      technologies: ["SQL", "PostgreSQL", "Indexation"]
+      description: "Mise en place de sauvegarde automatisé, pour externalisé des backups interne de plusieurs serveur ",
+      technologies: ["Projets Perso & Scolaire", "Windows", "Réseau"]
     },
     {
       id: 9,
-      title: "Crowdin",
+      title: "GLPI",
       year: "2024",
-      description: "Application de gestion de traductions développée avec Symfony. Système de rôles (rédacteur, traducteur) avec workflows de validation. Interface intuitive pour la gestion des traductions multilingues.",
-      technologies: ["PHP", "Symfony", "MySQL", "Bootstrap"]
+      description: "Mise en place d'un serveur GLPI avec création de sa documentation, et migration d'ancienne version a une nouvelle version",
+      technologies: ["Projets Scolaire & Profesionnel", "Réseau", "Linux"]
     },
     {
       id: 10,
-      title: "Application Météo Mobile",
-      year: "2024",
-      description: "Application mobile météo développée avec React Native et Expo. Utilisation des APIs Open Meteo et Geoapify pour la localisation et les données météo. Interface intuitive avec animations Lottie.",
-      technologies: ["React Native", "Expo", "Open Meteo", "Geoapify", "Lottie Icons"]
+      title: "Haute Disponibilité",
+      year: "2025",
+      description: "Mise en place d'un système de Load Balancing afin de gardée un service avec un SLA de 99,99% notament le portfolio & mes serveurs informatique",
+      technologies: ["Projets Pero & Scolaire", "Linux", "Réseau"]
     }
   ],
   contact: {
