@@ -1,30 +1,30 @@
 export const portfolioData = {
   about: {
     title: "À propos de moi",
-    description: "Développeur web passionné...",
-    skills: ["React", "JavaScript", "HTML", "CSS", "Node.js"]
+    description: "Administrateur système & réseau passionné...",
+    skills: ["Linux", "Windows", "Virtualisation"]
   },
   projects: [
     {
       id: 1,
-      title: "Projet en C#",
-      year: "2023",
-      description: "Site en C# afin de pouvoir gérer une interface admin de site d'e-commerce (le panier, l'utilisateur, etc).",
-      technologies: ["C#", "ASP.NET", "SQL"]
+      title: "Boost-Heberg",
+      year: "2020",
+      description: "Hébergeur de serveur de jeux ainsi que de VPS via Proxmox & Pterodactyl",
+      technologies: ["Projet Perso", "Linux", "Virtualisation"]
     },
     {
       id: 2,
-      title: "DataBase",
-      year: "2023",
-      description: "Site pour gérer une database d'une bibliothèque, tout est trié par exemple avec le nom de l'auteur, nom du livre, l'éditeur, l'année etc.",
-      technologies: ["SQL", "PHP", "HTML/CSS"]
+      title: "UPServ",
+      year: "2025",
+      description: "Hébergeur de serveur VPS, VDS ainsi que serveur dédiés. spécialisé dans le réseau renforcé contre le DDoS",
+      technologies: ["Projet Perso", "Linux", "Entreprise"]
     },
     {
       id: 3,
-      title: "FranceInter",
-      year: "2023",
-      description: "Site pour gérer le nombre de personnes dans un studio d'enregistrement avec un système d'analyse de personne avec les API de Microsoft Azure, possibilité d'écrire un message en français qui sera diffusé en anglais et français de façon audio.",
-      technologies: ["Azure API", "JavaScript", "Node.js"]
+      title: "StreamBox",
+      year: "2025",
+      description: "Service de Streaming privée, afin d'accéder au chaines de télévision et au catalogues pour visioner des films et séries",
+      technologies: ["Projet Pero", "Linux", "Réseau"]
     },
     {
       id: 4,
