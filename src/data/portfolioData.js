@@ -28,24 +28,24 @@ export const portfolioData = {
     },
     {
       id: 4,
-      title: "Jeux Unity",
-      year: "2023",
-      description: "Jeu sur Unity sur le thème Tom & Jerry. On contrôle la souris, le chat est une IA. Plusieurs niveaux disponibles fait en C#.",
-      technologies: ["Unity", "C#", "IA"]
+      title: "Grafana",
+      year: "2025",
+      description: "Installation d'un système permettant de surveiller le réseau acinsi que mes serveur personnel et profesionnel",
+      technologies: ["Projet personnel", "Linux", "Réseau"]
     },
     {
       id: 5,
-      title: "Application mobile",
-      year: "2023",
-      description: "Application mobile d'émargement en Flutter pour notre école. Simple QR Code à scanner en entrée ainsi quand sortie.",
-      technologies: ["Flutter", "Dart", "QR Code"]
+      title: "Projet BMS",
+      year: "2024",
+      description: "Configuration complète à faire du pare-feu, serveurs Windows et Debian à l'aide d'un cahier des charges, Configuration d'un Pfsense, ",
+      technologies: ["Projet Scolaire", "Windows", "Réseau"]
     },
     {
       id: 6,
-      title: "Bot Discord",
-      year: "2024",
-      description: "Bot Discord développé pour gérer automatiquement les connexions en salon vocal. Permet de suivre les temps de connexion et générer des statistiques d'utilisation.",
-      technologies: ["Discord.js", "Node.js", "MongoDB"]
+      title: "Projet MDL",
+      year: "2025",
+      description: "onfiguration complète à faire du pare-feu, serveurs Windows et Debian à l'aide d'un cahier des charges, Création d'un redondance de Pfsense et mise en place de sauvegarde via CobianReflector, Installation & configuration d'OpenVPN sur le routeur",
+      technologies: ["Projet Scolaire", "Windows", "Réseau"]
     },
     {
       id: 7,
