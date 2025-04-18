@@ -43,7 +43,7 @@ export const portfolioData = {
       year: "2024",
       description: "Configuration complète à faire du pare-feu, serveurs Windows et Debian à l'aide d'un cahier des charges, Configuration d'un Pfsense, ",
       technologies: ["Projet Scolaire", "Windows", "Réseau"],
-      link : "#"
+      link : "https://docs.julieng6v.fr/books/projet-bms"
     },
     {
       id: 6,
@@ -51,7 +51,7 @@ export const portfolioData = {
       year: "2025",
       description: "onfiguration complète à faire du pare-feu, serveurs Windows et Debian à l'aide d'un cahier des charges, Création d'un redondance de Pfsense et mise en place de sauvegarde via CobianReflector, Installation & configuration d'OpenVPN sur le routeur",
       technologies: ["Projet Scolaire", "Windows", "Réseau"],
-      link : "#"
+      link : "https://docs.julieng6v.fr/books/projet-mdl"
     },
     {
       id: 7,
@@ -83,7 +83,7 @@ export const portfolioData = {
       year: "2025",
       description: "Mise en place d'un système de Load Balancing afin de gardée un service avec un SLA de 99,99% notament le portfolio & mes serveurs informatique",
       technologies: ["Projets Pero & Scolaire", "Linux", "Réseau"],
-      link : "#"
+      link : "https://docs.julieng6v.fr/books/heartbeat"
     }
   ],
   contact: {
