@@ -19,6 +19,7 @@ function Projects() {
               className={`project-card ${activeProject === project.id ? 'active' : ''}`}
               onMouseEnter={() => setActiveProject(project.id)}
               onMouseLeave={() => setActiveProject(null)}
+              onClick={() => window.open(project.link, '_blank')}
             >
               <div className="project-content">
                 <div className="project-header">
