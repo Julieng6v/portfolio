@@ -31,9 +31,9 @@ function Header() {
         </div>
         
         <nav className="nav-menu">
-          <NavLink to="/" className="nav-link" end>
-            À propos
-          </NavLink>
+          {/*<NavLink to="/" className="nav-link" end>*/}
+          {/*  À propos*/}
+          {/*</NavLink>*/}
           <NavLink to="/projects" className="nav-link">
             Projets
           </NavLink>
@@ -45,6 +45,9 @@ function Header() {
           </NavLink>
           <a href="https://docs.julieng6v.fr/" className="nav-link" target="_blank" rel="noopener noreferrer">
             Docs
+          </a>
+          <a href="/" className="nav-link" target="_blank" rel="noopener noreferrer">
+            Veille
           </a>
           <a onClick={handleTabCompetence} className="nav-link" role="button">
             <HiOutlineDocument />
