@@ -10,6 +10,12 @@ const handleTabCompetence = () => {
   window.open(cvUrl, '_blank');
 };
 
+const handlePPTXVeilleInfo = () => {
+  // const cvUrl = `${process.env.PUBLIC_URL}/assets/cv/CV_Hugo_Peron.pdf`;
+  const cvUrl = `${process.env.PUBLIC_URL}/assets/veilleinfo/veille-informationnelle.pdf`;
+  window.open(cvUrl, '_blank');
+};
+
 function Header() {
   const [scrolled, setScrolled] = useState(false);
 
@@ -46,7 +52,7 @@ function Header() {
           <a href="https://docs.julieng6v.fr/" className="nav-link" target="_blank" rel="noopener noreferrer">
             Docs
           </a>
-          <a href="/src/assets/veille-informationnelle.pdf" className="nav-link" target="_blank" rel="noopener noreferrer">
+          <a onClick={handlePPTXVeilleInfo} className="nav-link" target="_blank" rel="noopener noreferrer">
             Veille
           </a>
           <a onClick={handleTabCompetence} className="nav-link" role="button">
