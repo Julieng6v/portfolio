@@ -20,11 +20,13 @@ function Footer() {
             <div className="footer-section">
               <h4>Liens Rapides</h4>
               <nav>
-                <a href="/portfoliojulien">À propos</a>
                 <a href="/projects">Projets</a>
                 <a href="/skills">Compétences</a>
+                <a href="https://docs.julieng6v.fr">Documentations</a>
+                <a href="https://julienlebas.fr/assets/veilleinfo/veille-informationnelle.pdf">Veille Informationnelle</a>
+                <a href="https://docs.julieng6v.fr">Certifications</a>
+                <a href="https://julienlebas.fr/assets/tabcompetence/tabcomp.pdf">Synthèse</a>
                 <a href="/contact">Contact</a>
-                <a href="https://docs.julieng6v.fr">Docs</a>
               </nav>
             </div>
 
