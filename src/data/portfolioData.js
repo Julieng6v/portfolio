@@ -9,7 +9,7 @@ export const portfolioData = {
       id: 1,
       title: "Boost-Heberg",
       year: "2020",
-      description: "Hébergeur de serveur de jeux ainsi que de VPS via Proxmox & Pterodactyl",
+      description: "Hébergeur de serveur de jeux via Pterodactyl ainsi que de VPS via Proxmox",
       technologies: ["Projet Perso", "Linux", "Virtualisation"],
       link : "https://docs.julieng6v.fr/"
     },
@@ -17,7 +17,7 @@ export const portfolioData = {
       id: 2,
       title: "UPServ",
       year: "2025",
-      description: "Hébergeur de serveur VPS, VDS ainsi que serveur dédiés. spécialisé dans le réseau renforcé contre le DDoS",
+      description: "Hébergeur de VPS, VDS et de serveurs dédiés, spécialisé dans la mise en place de protections réseau renforcées contre les attaques DDoS.",
       technologies: ["Projet Perso", "Linux", "Entreprise"],
       link : "#"
     },
@@ -25,7 +25,7 @@ export const portfolioData = {
       id: 3,
       title: "StreamBox",
       year: "2025",
-      description: "Service de Streaming privée, afin d'accéder au chaines de télévision et au catalogues pour visioner des films et séries",
+      description: "Service de streaming privé permettant d’accéder aux chaînes de télévision et aux catalogues pour regarder des films et des séries.",
       technologies: ["Projet Pero", "Linux", "Réseau"],
       link : "#"
     },
@@ -33,7 +33,7 @@ export const portfolioData = {
       id: 4,
       title: "Grafana",
       year: "2025",
-      description: "Installation d'un système permettant de surveiller le réseau acinsi que mes serveur personnel et profesionnel",
+      description: "IInstallation d’un système de supervision basé sur Grafana, permettant de surveiller l’état du réseau ainsi que mes serveurs personnels et professionnels.",
       technologies: ["Projet personnel", "Linux", "Réseau"],
       link : "#"
     },
@@ -41,7 +41,7 @@ export const portfolioData = {
       id: 5,
       title: "Projet BMS",
       year: "2024",
-      description: "Configuration complète à faire du pare-feu, serveurs Windows et Debian à l'aide d'un cahier des charges, Configuration d'un Pfsense, ",
+      description: "Configuration complète à faire du pare-feu, serveurs Windows et Debian à l'aide d'un cahier des charges, configuration d'un Pfsense, ",
       technologies: ["Projet Scolaire", "Windows", "Réseau"],
       link : "https://docs.julieng6v.fr/books/projet-bms"
     },
@@ -49,7 +49,7 @@ export const portfolioData = {
       id: 6,
       title: "Projet MDL",
       year: "2025",
-      description: "onfiguration complète à faire du pare-feu, serveurs Windows et Debian à l'aide d'un cahier des charges, Création d'un redondance de Pfsense et mise en place de sauvegarde via CobianReflector, Installation & configuration d'OpenVPN sur le routeur",
+      description: "Configuration complète à faire du pare-feu, serveurs Windows et Debian à l'aide d'un cahier des charges, création d'un redondance de Pfsense et mise en place de sauvegarde via CobianReflector, installation & configuration d'OpenVPN sur le routeur",
       technologies: ["Projet Scolaire", "Windows", "Réseau"],
       link : "https://docs.julieng6v.fr/books/projet-mdl"
     },
@@ -57,7 +57,7 @@ export const portfolioData = {
       id: 7,
       title: "Veille Technologique",
       year: "2024",
-      description: "Plateforme de veille technologique permettant de suivre les dernières actualités et innovations dans le domaine du développement web et mobile.",
+      description: "Plateforme de veille technologique permettant de suivre les dernières actualités et innovations dans le domaine des infrastructures réseaux, de la cybersécurité, de l'administration systèmes, et des technologies liées aux environnements serveurs et cloud",
       technologies: ["Projets Perso & Scolaire", "Réseau", "Cybersécurité"],
       link : "#"
     },
@@ -65,7 +65,7 @@ export const portfolioData = {
       id: 8,
       title: "Cobian Reflector",
       year: "2024",
-      description: "Mise en place de sauvegarde automatisé, pour externalisé des backups interne de plusieurs serveur ",
+      description: "Mise en place de sauvegardes automatisées pour externaliser les sauvegardes internes de plusieurs serveurs",
       technologies: ["Projets Perso & Scolaire", "Windows", "Réseau"],
       link : "#"
     },
@@ -73,7 +73,7 @@ export const portfolioData = {
       id: 9,
       title: "GLPI",
       year: "2024",
-      description: "Mise en place d'un serveur GLPI avec création de sa documentation, et migration d'ancienne version a une nouvelle version",
+      description: "Mise en place d'un serveur GLPI avec création de sa documentation, et migration d'ancienne version à une nouvelle version",
       technologies: ["Projets Scolaire & Profesionnel", "Réseau", "Linux"],
       link : "#"
     },
@@ -81,7 +81,7 @@ export const portfolioData = {
       id: 10,
       title: "Haute Disponibilité",
       year: "2025",
-      description: "Mise en place d'un système de Load Balancing afin de gardée un service avec un SLA de 99,99% notament le portfolio & mes serveurs informatique",
+      description: "Mise en place d’un système de répartition de charge (Load Balancing) afin d’assurer un SLA de 99,99 %, notamment pour mon site portfolio et mes serveurs informatiques",
       technologies: ["Projets Pero & Scolaire", "Linux", "Réseau"],
       link : "https://docs.julieng6v.fr/books/heartbeat"
     }
@@ -127,7 +127,7 @@ export const portfolioData = {
       },
       {
         title: "Voyages",
-        description: "Turique, Vietnam, Hongrie, Espagne, Etats-Unis, Egypt,"
+        description: "Turquie, Vietnam, Hongrie, Espagne, Etats-Unis, Egypte,"
       },
       {
         title: "hello@julienlebas.fr",
