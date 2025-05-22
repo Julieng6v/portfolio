@@ -37,7 +37,7 @@ function Header() {
           {/* <NavLink to="/" className="nav-link" end>À propos</NavLink> */}
           <NavLink to="/projects" className="nav-link">Projets</NavLink>
           <NavLink to="/skills" className="nav-link">Compétences</NavLink>
-          <NavLink to="/contact" className="nav-link">Contact</NavLink>
+          
 
           <a href="https://docs.julieng6v.fr/" className="nav-link" target="_blank" rel="noopener noreferrer">
             Docs
@@ -54,6 +54,7 @@ function Header() {
           <a onClick={handleTabCompetence} className="nav-link" role="button">
             Synthèse 
           </a>
+        <NavLink to="/contact" className="nav-link">Contact</NavLink>
         </nav>
       </div>
     </header>
