@@ -59,9 +59,10 @@ function Header() {
             <HiOutlineDocument />
           </a>
           </NavLink>
-          <a href="https://docs.julieng6v.fr/CERTIFDEMERDE" className="nav-link" target="_blank" rel="noopener noreferrer">
-            Certif
+          <a href="https://tonlienici.fr" className="nav-link" target="_blank" rel="noopener noreferrer">
+          Certif
           </a>
+
             
         </nav>
       </div>
