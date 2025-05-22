@@ -46,7 +46,7 @@ function Header() {
           <a href="https://docs.julieng6v.fr/" className="nav-link" target="_blank" rel="noopener noreferrer">
             Docs
           </a>
-          <a href="/" className="nav-link" target="_blank" rel="noopener noreferrer">
+          <a href="/src/assets/imgs/veille-informationnelle.pdf" className="nav-link" target="_blank" rel="noopener noreferrer">
             Veille
           </a>
           <a onClick={handleTabCompetence} className="nav-link" role="button">
