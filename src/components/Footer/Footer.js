@@ -21,9 +21,9 @@ function Footer() {
               <h4>Liens Rapides</h4>
               <nav>
                 <a href="/portfoliojulien">À propos</a>
-                <a href="/portfoliojulien/projects">Projets</a>
-                <a href="/portfoliojulien/skills">Compétences</a>
-                <a href="/portfoliojulien/contact">Contact</a>
+                <a href="/projects">Projets</a>
+                <a href="/skills">Compétences</a>
+                <a href="/contact">Contact</a>
                 <a href="https://docs.julieng6v.fr">Docs</a>
               </nav>
             </div>
