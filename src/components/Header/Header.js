@@ -52,7 +52,7 @@ function Header() {
           </a>
 
           <a onClick={handleTabCompetence} className="nav-link" role="button">
-            CV
+            Synthèse 
           </a>
         </nav>
       </div>
