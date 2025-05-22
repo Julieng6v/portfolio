@@ -58,6 +58,11 @@ function Header() {
           <a onClick={handleTabCompetence} className="nav-link" role="button">
             <HiOutlineDocument />
           </a>
+          </NavLink>
+          <a href="https://docs.julieng6v.fr/CERTIFDEMERDE" className="nav-link" target="_blank" rel="noopener noreferrer">
+            Certif
+          </a>
+            
         </nav>
       </div>
     </header>
