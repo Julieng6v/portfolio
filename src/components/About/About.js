@@ -1,7 +1,7 @@
 import React from 'react';
 import { portfolioData } from '../../data/portfolioData';
 import './About.css';
-import avatar from '../../assets/imgs/avatar.jpg';
+import avatar from '../../assets/imgs/ceoEnBalade.jpg';
 
 function About() {
   const socialLinks = [
