@@ -47,10 +47,10 @@ function Header() {
             Veille
           </a>
 
-          <a href="https://tonlienici.fr" className="nav-link" target="_blank" rel="noopener noreferrer">
+         /* <a href="https://tonlienici.fr" className="nav-link" target="_blank" rel="noopener noreferrer">
             Certif
           </a>
-
+*/
           <a onClick={handleTabCompetence} className="nav-link" role="button">
             Synthèse 
           </a>
